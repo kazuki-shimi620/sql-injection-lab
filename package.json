@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "scripts": {
+    "build:engine": "node scripts-build-engine.mjs",
+    "test": "node scripts-build-engine.mjs && node tests/check.mjs && node --experimental-vm-modules tests/ui.mjs"
+  },
+  "devDependencies": {
+    "jsdom": "^30.1.2"
+  }
+}
